@@ -1,0 +1,14 @@
+numpy~=1.19.1
+scipy~=1.5.2
+pandas~=1.1.5
+matplotlib~=3.3.1
+scikit-learn~=0.23.2
+pillow~=7.2.0
+tensorflow~=2.2.0
+tensorflow-gpu~=2.2.0
+tqdm~=4.48.2
+seaborn~=0.11.1
+albumentations~=0.5.2
+setuptools~=49.6.0
+imageio~=2.9.0
+cython~=0.29.23

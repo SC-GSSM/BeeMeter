@@ -1,0 +1,46 @@
+{
+  "training": {
+    "name": "Test Training",
+    "input_width": 500,
+    "input_height": 400,
+    "epochs": 10,
+    "batch size": 8
+  },
+  "data": {
+    "Training path": "/home/t9s9/PiCamPictures/training_img",
+    "Validation path": "/home/t9s9/PiCamPictures/validation_img",
+    "Label path": "/home/t9s9/PycharmProjects/BeeMeter/data/PiCamLabels.db"
+  },
+  "default boxes": {
+    "scale_min": 0.3,
+    "scale_max": 0.9,
+    "fixed_scale": null,
+    "aspect_ratios_global": [
+      0.5,
+      1.0,
+      1.5
+    ],
+    "aspect_ratios": [
+      [
+        0.5,
+        1
+      ],
+      [
+        1,
+        1.5,
+        2
+      ],
+      [
+        1,
+        2
+      ]
+    ],
+    "standardizing": [
+      1.2,
+      1.2,
+      1.2,
+      1.2
+    ],
+    "use_bonus_square_box": false
+  }
+}
